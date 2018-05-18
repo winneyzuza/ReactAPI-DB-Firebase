@@ -1,0 +1,22 @@
+{
+  "name": "react_final_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "koaservice.js",
+  "scripts": {
+    "start": "node koaservice.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-cors": "0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.5",
+    "mysql2": "^1.5.1",
+    "mysql2-promise": "^0.1.4"
+  }
+}
